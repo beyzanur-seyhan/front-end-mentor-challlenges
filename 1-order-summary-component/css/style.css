@@ -1,0 +1,114 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    width: 1440px;
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+    gap: 15px;
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    
+}
+
+main{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-block-end: 40px;
+}
+
+main>img{
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 15px;
+}
+
+main>h1{
+    font-weight: 900;
+    text-align: center;
+    color: hsl(223, 47%, 23%)
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.text>p{
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-type{
+    display: flex;
+    background-color: hsla(230, 75%, 98%, 1);
+    padding: 30px 20px;
+    gap: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.plan-type>.plan-text>h2{
+    font-size: 16px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-type>.plan-text>p{
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-type>a{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.buttons button{
+    border: none;
+    width: 340px;
+}
+
+.buttons>button:first-child{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(230, 75%, 98%);
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 20px;
+    box-shadow:0px 6px 43px -3px hsla(245, 75%, 52%,0.46);
+    cursor: pointer;
+}
+
+.buttons>button:last-child{
+    background-color: rgba(255, 255, 255, 0);
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    cursor: pointer;
+}
