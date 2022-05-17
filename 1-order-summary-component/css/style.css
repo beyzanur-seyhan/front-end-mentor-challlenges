@@ -116,6 +116,10 @@ main>h1{
     cursor: pointer;
 }
 
+.buttons>button:first-child:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
 .buttons>button:first-child>a{
     color: hsl(230, 75%, 98%);
     text-decoration: none;
@@ -133,6 +137,10 @@ main>h1{
     color: hsl(224, 23%, 55%);
     text-decoration: none;
     font-weight: 900;
+}
+
+.buttons>button:last-child>a:hover{
+    color: hsl(223, 47%, 23%);
 }
 
 /************************* Buttons Features End *************************/
