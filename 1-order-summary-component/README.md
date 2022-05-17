@@ -51,7 +51,7 @@ body {
 - Website - [Beyzanur Seyhan](https://beyzanurseyhan.com/)
 - Frontend Mentor - [@beyzanur-seyhan](https://www.frontendmentor.io/profile/beyzanur-seyhan)
 - Linkedin - [@beyzanurseyhan](https://www.linkedin.com/in/beyzanurseyhan/)
-- E-Mail - [info@beyzanurseyha.com](mailto:info@beyzanurseyhan.com)
+- E-Mail - [info@beyzanurseyhan.com](mailto:info@beyzanurseyhan.com)
 
 ## Acknowledgments
 
