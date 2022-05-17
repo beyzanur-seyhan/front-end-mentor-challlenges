@@ -91,6 +91,11 @@ main>h1{
     color: hsl(245, 75%, 52%);
     font-weight: 700;
 }
+
+.plan-type>a:hover{
+    color: hsl(224, 23%, 55%);
+}
+
 /************************* Plan Type Features Ends *************************/
 
 /************************* Buttons Features Start *************************/
